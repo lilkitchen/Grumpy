@@ -68,7 +68,7 @@ const table = {
 	"саша": "Живёт себе в Питере",
 	"sasha": "She's cool, living in St. Petersburg",
 
-	"igor": "Igor is the best,
+	"igor": "Igor is the best",
 	"игорь": "Игорь крутой",
 
 	"злата": "Её зовут Игорь",
