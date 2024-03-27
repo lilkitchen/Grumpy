@@ -1,4 +1,4 @@
-const table = {
+export const table = {
 	"hi": "Eat shit",
 	"hey": "Fuck your hey",
 	"hello": "Oh no, there's another asshole",
@@ -137,6 +137,4 @@ const table = {
 	"creator": "<a href='https://theomorphic.github.io/links' target='_blank'>This is Him</a>",
 	"music": "<a href='https://youtu.be/dQw4w9WgXcQ?si=wF6lDfKhCFvHU2Sx' target='_blank'>Listen to this</a>",
 	"nothing": "Nothing in your brain,"
-}
-
-export {table};
+};

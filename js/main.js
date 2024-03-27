@@ -7,7 +7,7 @@ const chatContainer = document.getElementById("chatContainer");
 const user = {message:"", counter:0};
 
 
-import {table} as responseTable from "./response.js";
+import {table as responseTable} from "./response.js";
 
 setTimeout(() => {
 chatbotSendMessage("Sup you moron. What they call you?")
@@ -93,8 +93,8 @@ function processMessage(){
 	if(lowUser.length > 1){
 
 		//ловля ответа не из массива
-		if(table.hasOwnProperty(lowUser)){
-			const response = table[lowUser];
+		if(lowUser in responseTable){
+			const response = responseTable[lowUser];
 
 			setTimeout(() => {
 			chatbotSendMessage(response)
